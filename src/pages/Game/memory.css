@@ -1,0 +1,30 @@
+.memo_game {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.memo_pair {
+    text-align: left;
+}
+
+.memo_table{
+    margin-top: 20px;
+    color: black;
+    display: grid;
+    justify-items: center; 
+}
+.w-easy{
+    width: 280px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.w-middle{
+    width: 420px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.w-hard{
+    width: 560px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}

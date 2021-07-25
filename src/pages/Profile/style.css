@@ -1,0 +1,16 @@
+.profile_page {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile_data {
+    margin-right: auto;
+    color: white;
+}
+
+.profile_data div {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+}

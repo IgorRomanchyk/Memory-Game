@@ -1,0 +1,93 @@
+.container {
+    min-height: calc(100vh - 60px);
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.welcome_page {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.form_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    outline: 0;
+}
+input:-moz-placeholder {
+    color: #999999;
+    text-align: center;
+}
+input::-moz-placeholder {
+    color: #999999;
+    text-align: center;
+}
+input:-ms-input-placeholder {
+    color: #999999;
+    text-align: center;
+}
+input::-webkit-input-placeholder {
+    color: #999999;
+    text-align: center;
+}
+
+.welcome_title {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.difficulty {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.card_shirt {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 20px;
+    font-size: 20px;
+}
+
+.welcome_button {
+    cursor: pointer;
+    margin: 0 auto;
+    width: 150px;
+    height: 47px;
+    text-align: center;
+    background-color: #ff8b38;
+    border: 0;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+}
+
+.select { 
+    display: block; 
+    font-weight: 700; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    appearance: none;
+} 
+   

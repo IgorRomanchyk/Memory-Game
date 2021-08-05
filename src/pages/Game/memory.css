@@ -16,14 +16,17 @@
     display: grid;
     justify-items: center; 
 }
+
 .w-easy{
     width: 280px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .w-middle{
     width: 420px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
 .w-hard{
     width: 560px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

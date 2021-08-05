@@ -8,7 +8,7 @@ import reducer from './reducer/reducer'
 const store = createStore(reducer)
 
 store.subscribe(()=> {
-  console.log(store.getState().isWin)
+  console.log(store.getState().index)
 })
 
 ReactDOM.render(

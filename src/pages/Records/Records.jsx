@@ -21,7 +21,7 @@ export function Records() {
                             {records4x4.map((i, id) => 
                                 <li key={id}>
                                     {i.minutes>=10 ? i.minutes : '0' + i.minutes}:
-                                    {i.seconds>=10 ? i.seconds : '0' + i.seconds} (card shirt: {i.type})
+                                    {i.seconds>=10 ? i.seconds : '0' + i.seconds} (type: {i.type})
                                 </li>)}
                         </ol>
                         </>

@@ -3,7 +3,7 @@ import React, { useRef } from "react"
 export function Difficulty({setDiff}) {
     const selectRef = useRef(null)
 
-    function selOption(){
+    function selOp(){
         if (selectRef) {
             setDiff (+selectRef.current.value)
         }
@@ -12,7 +12,7 @@ export function Difficulty({setDiff}) {
     return (
         <div className='difficulty' style={{color: "white"}}>
             <div>Difficulty:</div>
-            <select className="select" ref={selectRef} onChange={() => selOption()}>
+            <select className="select" ref={selectRef} onChange={() => selOp()}>
                 <option >Difficulty (select)</option>
                 <option value="16">easy ( 4x4 )</option>
                 <option value="36">medium ( 6x6 )</option>

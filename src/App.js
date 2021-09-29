@@ -8,7 +8,7 @@ import { Profile } from './pages/Profile/Profile';
 import { Records } from './pages/Records/Records';
 import { useSelector } from "react-redux";
 import { users } from './pages/Welcome/Welcome';
-import './style.css'
+import './style.scss'
 
 import history from './history'
 

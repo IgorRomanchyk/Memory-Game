@@ -1,7 +1,7 @@
 import React  from "react"
 import { users } from "../Welcome/Welcome"
 
-import './style.css'
+import './style.profile.scss'
 
 export function Profile() {
     return (

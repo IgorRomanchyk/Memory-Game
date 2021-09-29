@@ -112,8 +112,8 @@ class Clock extends React.Component {
           </div>
         </div>
         <div className='memo_button'>
-              <button className='button' onClick={this.onNewGameClick}>New Game</button>
-              <button className='button' onClick={this.onRestart}>Restart</button>
+              <button onClick={this.onNewGameClick}>New Game</button>
+              <button onClick={this.onRestart}>Restart</button>
           </div>
       </div>
     );

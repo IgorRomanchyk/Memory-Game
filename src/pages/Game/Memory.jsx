@@ -2,7 +2,7 @@ import React from "react"
 import { useSelector } from "react-redux";
 import MemoItem from "./MemoItem/MemoItem";
 import Clock from './MemoItem/Clock'
-import './memory.css'
+import './memory.scss'
 
 const MemoryApp = () => {
   const memoTable = useSelector(state => state.memoTable)

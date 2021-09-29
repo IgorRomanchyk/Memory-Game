@@ -1,7 +1,7 @@
 import React  from "react"
 import {useSelector} from 'react-redux'
 
-import './style.css'
+import './style.records.scss'
 
 export function Records() {
     const records4x4= useSelector(state => state.records4x4)
@@ -11,7 +11,7 @@ export function Records() {
 
     return (
         <div className="record_page">
-            <h1 className='records'>Your records</h1>    
+            <h1 className='records_title'>Your records</h1>    
             <div className='records_container'>
                 <div>
                     {records4x4 ? (

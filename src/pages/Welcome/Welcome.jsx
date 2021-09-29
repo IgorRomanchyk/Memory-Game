@@ -6,7 +6,7 @@ import { CardShirt } from "./CardShirt";
 import { useSelector } from "react-redux";
 import history from '../../history'
 
-import './style.css'
+import './style.welcome.scss'
 
 export let users = JSON.parse(localStorage.getItem("allUsers"));
 

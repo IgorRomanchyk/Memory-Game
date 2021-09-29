@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { openMemo } from "../../../reducer/actions";
-import './memoitem.css';
+import './memoitem.scss';
 
 
 const MemoItem = ({id, memo}) => {

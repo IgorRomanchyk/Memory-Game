@@ -1,0 +1,81 @@
+.memo_game {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    .memo_clock {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        font-size: 18px;
+        color: white;
+    }
+    .memo_button {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        margin-top: 10px;
+        button {
+            cursor: pointer;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background-color: #ff8b38;
+            border: 0;
+            font-family: 'Raleway';
+            font-size: 17px;
+            font-weight: 600;
+            border-radius: 5px;
+            color: white;
+        }
+    }
+    .memo_table{
+        margin-top: 20px;
+        color: black;
+        display: grid;
+        justify-items: center; 
+    }
+}
+
+.memo_pair {
+    text-align: left;
+}
+
+
+
+.w-easy{
+    width: 280px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.w-middle{
+    width: 420px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.w-hard{
+    width: 560px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .w-hard{
+        width: 400px;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .memo{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .w-hard{
+        width: 400px;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+    .memo_clock {
+        margin-top: 25px;
+    }
+}
